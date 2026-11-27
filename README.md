@@ -18,7 +18,7 @@ Fits drift-diffusion models (PyDDM) to choices and response times from an audito
   - Fit-quality checks compare predicted and observed choice proportions and RT quantiles.
   - Report figures: RT distributions and quantiles, plus psychometric and chronometric curves with DDM fits overlaid.
 
-Results: TODO: confirm. The code computes fit statistics at run time but stores no results.
+Results: The code computes fit statistics at run time but stores no results.
 
 ## Tools
 Python, PyDDM, NumPy, pandas, SciPy, Matplotlib, Google Colab.
@@ -30,4 +30,4 @@ In progress.
 
 **Paths:** the Google Drive path was replaced with the placeholder `/path/to/auditory_project/`.
 
-**Notes:** The `.py` files are exports of Google Colab notebooks. Lines starting with `!` (and the bare `pip install` line, where present) are notebook shell commands, and `drive.mount(...)` calls are Colab-only. Run the files cell by cell in a notebook, not as plain scripts. Additional exploratory analysis code: TODO: confirm before adding.
+**Notes:** The `.py` files are exports of Google Colab notebooks. Lines starting with `!` (and the bare `pip install` line, where present) are notebook shell commands, and `drive.mount(...)` calls are Colab-only. Run the files cell by cell in a notebook, not as plain scripts. 
